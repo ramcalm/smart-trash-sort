@@ -1,0 +1,81 @@
+<head>
+  <title>Dashboard Analytics</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <style>
+      body {
+          background-image: url('https://i.ibb.co/zVLb3X6/Dark-grungy-background-or-texture.jpg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: cover;
+      }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-light text-light bg-dark">
+      <a class="navbar-brand">Trashlytics</a>
+      <form class="form-inline">
+        <button class="btn btn-outline-success m-2 my-sm-0" type="submit">Logout</button>
+      </form>
+    </nav>
+    <div class="mx-auto m-3 p-2 font-weight-bold text-white" style="width: 400px; text-align: center; font-size: 35px;">
+      Leaderboard
+    </div>
+  <div class="container mw-100" style="height: 1000;">
+      
+      <div class="row mh-100">
+          <div class="col-md-2"></div>
+          <div class="col-md-8 p-5 flex-grow-1 d-flex flex-column">
+              <table class="table table-dark table-striped">
+                  <caption>Leaderboard</caption>
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">User</th>
+                      <th scope="col">Bio Count</th>
+                      <th scope="col">Non-bioe Count</th>
+                      <th scope="col">Score</th>
+                    </tr>
+                    <tbody>
+                      <tr>
+                        <td>1</td>
+                        <td>Felix</td>
+                        <td>6</td>
+                        <td>3</td>
+                        <td>10</td>
+                      </tr>
+                      <tr>
+                        <td>2</td>
+                        <td>Harry</td>
+                        <td>5</td>
+                        <td>2</td>
+                        <td>7</td>
+                      </tr>
+                      <tr>
+                        <td>3</td>
+                        <td>Andy</td>
+                        <td>5</td>
+                        <td>3</td>
+                        <td>5</td>
+                      </tr>
+                    </tbody>
+                  </thead>
+                </table>
+          </div>
+          <div class="col-md-2"></div>
+      </div>
+      <div class="mx-auto m-3 p-2 font-weight-bold text-white" style="width: 400px; text-align: center; font-size: 35px;">
+        <a href="/" class="btn btn-success" role="button" aria-disabled="true">HomePage</a>
+      </div>
+  </div>
+  <script>
+      function myFunction(x)
+      {
+          console.log(x);
+          document.getElementById("myimage").src="data:image/jpg;base64,"+x;
+          src=0;
+      }
+  </script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
