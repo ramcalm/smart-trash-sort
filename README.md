@@ -40,3 +40,7 @@ Automate Waste Classification using IOT & ML
 <a href="https://github.com/siddharth1010">Siddharth M Nair</a><br>
 <a href="https://github.com/ramcalm">Ram Gunasekaran A</a><br>
 <a href="https://github.com/ssabarish2000">Sabarish S</a><br>
+
+## BSC address
+
+0xE2d796bef3853cE7D551f73164eD9f9481B411cD
